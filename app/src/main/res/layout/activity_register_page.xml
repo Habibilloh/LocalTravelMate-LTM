@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterPage">
+
+    <include layout="@layout/toolbar" android:id="@+id/main_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/main_toolbar"
+
+
+        android:orientation="vertical"
+
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/nameField"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:hint="Display name"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/phoneField"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:hint="Phone number"
+            android:inputType="numberSigned"
+            android:padding="10dp"/>
+
+        <RadioGroup
+            android:id="@+id/genderGroup"
+            android:layout_width="300dp"
+
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Female" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/birthField"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/input_outline"
+            android:hint="Age"
+            android:inputType="date"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/countryField"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="You Country"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/emailField"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/passwordField"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/statusField"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:hint="status"
+            android:inputType="textPersonName"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/submitbtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="submit" />
+    </LinearLayout>
+
+</RelativeLayout>

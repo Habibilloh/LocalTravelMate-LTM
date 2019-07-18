@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.abdul.ltm">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".LTM"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".EntryPage" />
+        <activity
+            android:name=".RegisterPage"
+            android:parentActivityName=".EntryPage" />
+        <activity
+            android:name=".LogIn"
+            android:parentActivityName=".RegisterPage" />
+        <activity android:name=".SettingsPage" />
+        <activity
+            android:name=".ModifyProfile"
+            android:parentActivityName=".SettingsPage" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" /> <!-- optional (needed if default theme has no action bar) -->
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".Activity_profile">
+            <intent-filter>
+                <action android:name="com.example.abdul.ltm_TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChatActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AllUsers"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PostActivity"
+            android:parentActivityName=".MainPage">
+
+        </activity>
+    </application>
+
+</manifest>

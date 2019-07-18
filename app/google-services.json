@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "604649945685",
+    "firebase_url": "https://ltmate-bcf32.firebaseio.com",
+    "project_id": "ltmate-bcf32",
+    "storage_bucket": "ltmate-bcf32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604649945685:android:bfe9da36a01f7eef",
+        "android_client_info": {
+          "package_name": "com.example.abdul.ltm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604649945685-5gqfrt03g4ishried9loolmjjdon5505.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdul.ltm",
+            "certificate_hash": "28b27a9e837ebc9567c37832e16bdb2d9954c0c0"
+          }
+        },
+        {
+          "client_id": "604649945685-04dp27s8teplf8vco01ssrvllr7n5rnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrjQ156vSOfs3PYRE_e1ab0Y7EKWfuOBE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604649945685-04dp27s8teplf8vco01ssrvllr7n5rnq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

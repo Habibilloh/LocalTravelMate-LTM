@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LTM</string>
+    <string name="main_page">Main Page</string>
+    <string name="log_out">Log out</string>
+    <string name="all_users">All Users</string>
+    <string name="account_settings">Account Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="modify_profile">Modify profile</string>
+    <string name="change_image">Change Image</string>
+    <string name="textview">TextView</string>
+    <string name="display_name">Display Name</string>
+
+    <string name="enter_message">Enter Message...</string>
+    <string name="go_to_chat">Go to Chat</string>
+
+</resources>

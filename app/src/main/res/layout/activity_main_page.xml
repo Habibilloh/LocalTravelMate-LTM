@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage">
+
+    <android.support.design.widget.AppBarLayout
+
+        android:id="@+id/appPageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <include
+            android:id="@+id/mainPage_toolbar"
+            layout="@layout/toolbar" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/mainPage_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            app:tabBackground="@color/colorPrimary"
+            app:tabTextColor="@color/colorWhite">
+
+        </android.support.design.widget.TabLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mainPage_tabPager"
+        android:layout_width="match_parent"
+
+
+        android:layout_height="wrap_content"
+
+
+
+
+        android:layout_below="@+id/appPageLayout"
+
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp">
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

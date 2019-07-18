@@ -1,4 +1,4 @@
 Team name: UniteUK
-Team members: Habibilloh, Farkhodjon, NamowoKim
+Team members: Habibilloh, Farkhodjon
 
 At first we were planning to make an application that serves for the tourists who are making a travel for the first time to Some country and do not have any touristic information about the country. Most tourists want to meet local friends during their traveling and know how the locals enjoy their time and culture in their daily life. Locals also wanna meet foreigners. Tourists who use our application will have the opportunity to have a personal guide who know well about touristic places or we also planning to implement some tourism infos and tour plans to our application which can be very helpful for them who do not need any guide. We will be providing service for both guides and tourists, by using our application if someone who have knowledge about touristic places can register to our application and serves to the customers.
